@@ -4,8 +4,17 @@
     "$className": "DataModel",
 
     "ReplicatedStorage": {
-      "Shared": {
-        "$path": "src/shared"
+      "Source": {
+        "$className": "Folder",
+        "StartUp": {
+          "$className": "Folder",
+          "MountUI": {
+            "$path": "src/startup/MountUI.luau"
+          },
+          "Client": {
+            "$path": "src/startup/Client.client.luau"
+          }
+        }
       },
       "Packages": {
         "$path": "Packages"
@@ -13,18 +22,16 @@
     },
 
     "ServerScriptService": {
-      "Server": {
-        "$path": "src/server"
+      "Core": {
+        "$className": "Folder"
       },
-      "ServerPackages": {
-        "$path": "ServerPackages"
-      }
-    },
-
-    "StarterPlayer": {
-      "StarterPlayerScripts": {
-        "Client": {
-          "$path": "src/client"
+      "Game": {
+        "$className": "Folder"
+      },
+      "StartUp": {
+        "$className": "Folder",
+        "Server": {
+          "$path": "src/startup/Server.server.luau"
         }
       }
     }
