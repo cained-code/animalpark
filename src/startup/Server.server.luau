@@ -1,7 +1,2 @@
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
-local DataService = require(ReplicatedStorage.Packages.DataService).server
-local DataTemplate = require(ReplicatedStorage.Path.To.DataTemplate)
-
-DataService:init({
-	template = DataTemplate,
-})
+local Data = require(ReplicatedStorage.Source.Game.GameData).server

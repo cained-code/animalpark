@@ -6,6 +6,12 @@
     "ReplicatedStorage": {
       "Source": {
         "$className": "Folder",
+        "Game": {
+          "$className": "Folder",
+          "GameData": {
+            "$path": "src/game/GameData.luau"
+          }
+        },
         "StartUp": {
           "$className": "Folder",
           "MountUI": {
