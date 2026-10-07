@@ -6,6 +6,9 @@
     "ReplicatedStorage": {
       "Source": {
         "$className": "Folder",
+        "Features": {
+          "$className": "Folder"
+        },
         "Game": {
           "$className": "Folder",
           "GameData": {
@@ -28,6 +31,12 @@
     },
 
     "ServerScriptService": {
+      "Features": {
+        "$className": "Folder",
+        "SittingSystem": {
+          "$path": "src/features/SittingSystem.luau"
+        }
+      },
       "Core": {
         "$className": "Folder"
       },

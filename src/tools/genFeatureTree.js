@@ -52,7 +52,7 @@ function getVirtualPath(filepath) {
 
 const tree = {
   emitLegacyScripts: false,
-  name: "easy-defense",
+  name: "animalpark",
   tree: {
     $className: "DataModel",
 
